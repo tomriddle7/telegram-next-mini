@@ -42,7 +42,6 @@ export default function RootLayout({
           manifestUrl="https://tomriddle7.github.io/telegram-next-mini/manifest.json"
         >
           <Header />
-          {window?.Telegram?.WebApp?.initData}
           {children}
         </TonConnectUIProvider>
       </body>
